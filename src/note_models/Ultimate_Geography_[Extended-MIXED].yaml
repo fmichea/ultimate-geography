@@ -1,0 +1,45 @@
+name: Ultimate Geography [Extended-MIXED]
+id: f4a6d109-22fb-4fe7-b589-e6d8a4e0cb69
+css_file: src/note_models/style.css
+fields:
+  - name: Country
+    font: Arial
+  - name: Country (L2)
+    font: Arial
+  - name: Country info
+    font: Arial
+  - name: Capital
+    font: Arial
+  - name: Capital (L2)
+    font: Arial
+  - name: Capital info
+    font: Arial
+  - name: Capital hint
+    font: Arial
+  - name: Flag
+    font: Arial
+  - name: Flag similarity
+    font: Arial
+  - name: Map
+    font: Arial
+templates:
+  - name: Country - Capital
+    html_file: src/note_models/templates/Country - Capital.html
+  - name: Capital - Country
+    html_file: src/note_models/templates/Capital - Country.html
+  - name: Country - Flag
+    html_file: src/note_models/templates/Country - Flag.html
+  - name: Flag - Country
+    html_file: src/note_models/templates/Flag - Country.html
+  - name: Country - Map
+    html_file: src/note_models/templates/Country - Map.html
+  - name: Map - Country
+    html_file: src/note_models/templates/Map - Country.html
+  - name: Country - Country (L2)
+    html_file: src/note_models/templates/Country - Country (L2).html
+  - name: Country (L2) - Country
+    html_file: src/note_models/templates/Country (L2) - Country.html
+  - name: Capital - Capital (L2)
+    html_file: src/note_models/templates/Capital - Capital (L2).html
+  - name: Capital (L2) - Capital
+    html_file: src/note_models/templates/Capital (L2) - Capital.html
